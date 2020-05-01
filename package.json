@@ -1,20 +1,34 @@
 {
   "name": "torre-eiffel",
   "version": "1.0.0",
-  "description": "This a 2D canvas HTML made for the platzi.com course of basic programming",
-  "main": "index.js",
+  "description": "Torre Eiffel project made with platzi",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/heysoypaez/torre-eiffel.git"
+    "develop": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open",
+    "prettier": "prettier --write \"src/**/*.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/heysoypaez/torre-eiffel/issues"
+  "dependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "prettier": "^2.0.5",
+    "webpack-dev-server": "^3.10.3"
   },
-  "homepage": "https://github.com/heysoypaez/torre-eiffel#readme"
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.5.3",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }
