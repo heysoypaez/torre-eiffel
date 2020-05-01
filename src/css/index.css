@@ -6,26 +6,26 @@ body {
 }
 
 canvas {
-	background: white;
-	border-radius: 30px;
-	justify-self: center;
+  background: white;
+  border-radius: 30px;
+  justify-self: center;
 }
 
 input {
-	border: 0;
-	padding: 10px 30px;
+  border: 0;
+  padding: 10px 30px;
 }
 
-input[type=button]:hover {
-	cursor: pointer;
+input[type="button"]:hover {
+  cursor: pointer;
 }
 
 input:hover {
-	background: black;
-	color: white;
+  background: black;
+  color: white;
 }
 
 .text_result {
-	text-align: center;
-	font-style: italic;
+  text-align: center;
+  font-style: italic;
 }
