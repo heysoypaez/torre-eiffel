@@ -17,6 +17,7 @@ module.exports = {
     contentBase: path.join(__dirname),
     hot: true,
     port: 8080,
+    open: true,
     clientLogLevel: "silent",
     lazy: false,
     https: false,
