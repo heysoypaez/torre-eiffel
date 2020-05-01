@@ -1,0 +1,20 @@
+{
+  "name": "torre-eiffel",
+  "version": "1.0.0",
+  "description": "This a 2D canvas HTML made for the platzi.com course of basic programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heysoypaez/torre-eiffel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heysoypaez/torre-eiffel/issues"
+  },
+  "homepage": "https://github.com/heysoypaez/torre-eiffel#readme"
+}
